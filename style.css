@@ -24,12 +24,12 @@ nav a {
 }
 
 .home-section {
-    background: linear-gradient(to right, #000, #333);
-    color: white;
+    background: url(Fondo.jpeg) center center / cover no-repeat;
+    color: black;
     padding: 100px 20px;
     text-align: center;
 }
-
+ 
 section {
     padding: 60px 20px;
     text-align: center;
