@@ -25,7 +25,9 @@ nav a {
 
 .home-section {
     background: url(Fondo.jpeg) center center / cover no-repeat;
-    color: black;
+    color: white;
+     font-weight: 700;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
     padding: 100px 20px;
     text-align: center;
 }
