@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>FixPhone - Reparación y Fundas Personalizadas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav>
+            <h1>FixPhone</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#benefits">Ventajas</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME / PORTADA -->
+   <section id="home" class="home-section">
+
+    <img src="img/phone_portada.jpg" class="hero-img">
+
+    <div class="hero-content">
+        <h2>Reparamos tu celular como nuevo</h2>
+
+        <p>
+            Pantallas, baterías, software y fundas personalizadas
+            con tu diseño favorito.
+        </p>
+
+        <a href="https://wa.me/51939253063?text=Hola%20quiero%20información"
+           target="_blank"
+           class="btn-whatsapp">
+           📲 Cotizar por WhatsApp
+        </a>
+    </div>
+
+</section>
+
+    <!-- SERVICIOS -->
+    <section id="services" class="service-section">
+
+        <h2 class="section-title">Nuestros Servicios</h2>
+
+        <div class="services-container">
+
+            <div class="service-item">
+                <h3>🔧 Reparación</h3>
+                <p>
+                    Cambio de pantalla, batería, puerto de carga,
+                    cámara, software y más.
+                </p>
+            </div>
+
+            <div class="service-item">
+                <h3>🎨 Fundas Personalizadas</h3>
+                <p>
+                    Diseña tu funda con fotos, frases o tu estilo favorito.
+                </p>
+            </div>
+
+            <div class="service-item">
+                <h3>⚙️ Optimización</h3>
+                <p>
+                    Limpieza de software, eliminación de virus
+                    y mejora del rendimiento del dispositivo.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- VENTAJAS -->
+    <section id="benefits">
+
+        <h2 class="section-title">¿Por qué elegir FixPhone?</h2>
+
+        <div class="benefits-container">
+
+            <div class="benefit">
+                <h3>⚡ Reparación rápida</h3>
+                <p>La mayoría de reparaciones se realizan en menos de 1 hora.</p>
+            </div>
+
+            <div class="benefit">
+                <h3>🛠 Repuestos de calidad</h3>
+                <p>Utilizamos repuestos certificados y herramientas profesionales.</p>
+            </div>
+
+            <div class="benefit">
+                <h3>✅ Garantía</h3>
+                <p>Todas nuestras reparaciones cuentan con garantía.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MARCAS -->
+    <section id="brands">
+
+        <h2 class="section-title">Marcas que reparamos</h2>
+
+        <p class="brands-list">
+            iPhone • Samsung • Xiaomi • Motorola • Huawei • Oppo
+        </p>
+
+    </section>
+
+
+    <!-- TESTIMONIOS -->
+    <section id="reviews">
+
+        <h2 class="section-title">Opiniones de clientes</h2>
+
+        <div class="reviews-container">
+
+            <div class="review">
+                <p>
+                    "Excelente servicio. Cambiaron la pantalla
+                    de mi celular en menos de una hora."
+                </p>
+                <strong>- Carlos M.</strong>
+            </div>
+
+            <div class="review">
+                <p>
+                    "Muy buena atención y precios accesibles.
+                    Recomiendo FixPhone."
+                </p>
+                <strong>- Andrea R.</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SOBRE NOSOTROS -->
+    <section id="about">
+
+        <h2>Sobre Nosotros</h2>
+
+        <p>
+            <strong>FixPhone</strong> es una empresa especializada en
+            reparación técnica y personalización de dispositivos móviles,
+            comprometida con ofrecer soluciones rápidas, seguras y
+            garantizadas para nuestros clientes.
+        </p>
+
+        <p>
+            Contamos con más de <strong>5 años de experiencia</strong>
+            en el sector tecnológico, empleando repuestos de alta calidad
+            y herramientas profesionales que garantizan la durabilidad
+            de cada intervención técnica.
+        </p>
+
+        <p>
+            Nuestra prioridad es extender la vida útil de los equipos,
+            optimizar su rendimiento y brindar una atención personalizada
+            que combine eficiencia técnica con excelencia en servicio.
+        </p>
+
+    </section>
+
+
+    <!-- CONTACTO -->
+    <section id="contact">
+
+        <h2>Contacto</h2>
+
+        <p>📍 <strong>Ubicación: Lima, Perú</strong></p>
+
+        <p>
+            <strong>Correo Electrónico:</strong>
+            <a href="mailto:contacto@fixphone.com">
+            contacto@fixphone.com
+            </a>
+        </p>
+
+        <p>
+            <strong>WhatsApp</strong>
+            <a href="https://wa.me/51939253063" target="_blank">
+            +51 939 253 063
+            </a>
+        </p>
+
+    </section>
+
+
+    <!-- CHATBOT -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+
+    <df-messenger
+        intent="WELCOME"
+        chat-title="FixPhone"
+        agent-id="beb8063e-c0b3-48e1-81b9-efb32b17bf6f"
+        language-code="es">
+    </df-messenger>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 FixPhone - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
